@@ -1,0 +1,157 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: all;
+}
+
+div#nav div.nav_left img{
+	width: 60px;
+	height: 60px;
+	vertical-align: bottom;
+}
+
+div#nav div.nav_left h1{
+	font-family:logo;
+	display: inline-block;
+	margin:0 10px;
+	vertical-align: bottom;
+}
+
+div#nav div.nav_left{
+	float:left;
+	margin-top:20px;
+}
+
+div#nav div.nav_right{
+	float:right;
+}
+
+div.nav_right a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	padding: 14px 20px;
+	color:black;
+}
+
+a.active{
+	color:#fff !important;
+	background-color:#080808;
+	border-radius: 15px 0px 15px 0px;
+}
+.clear
+{
+clear:both;
+}
+div#banner img
+{
+	width:100%;
+height: 500px;
+object-fit: cover;
+
+}
+div#banner i{
+	font-size: 130px;
+	color: silver;
+	position:absolute;
+	top:30%;
+	left: 47%;
+}
+div.quote
+{
+	font-family: unicode;
+	background-color:rgba(255,255,255,0.5);
+	font-size: 30px;
+	position: absolute;
+	top:50%;
+	left: 5%;
+	padding: 30px;
+
+}
+ 
+div#atzm p{
+	text-align:center;
+}
+div#atzm h2{
+	text-align:center;
+
+}
+div.offer img{
+	width:200px;
+	height: 200px;
+}
+div.offer{
+	display:flex;
+	flex-wrap: wrap;
+	text-align:center;
+	padding-left:10%;
+	padding-right: 10%;
+	font-family:sans-serif;
+}
+div.offer1{
+	width:30%;
+	height: auto;
+	padding:10px;
+}
+div#shop h3{
+	text-align:center;
+	font-family:sans-serif;
+}
+div.A img{
+	width:150px;
+	height:150px;
+	float: left;
+	margin-left: 240px;
+}
+div.B{
+	position: relative;
+	
+	
+
+}
+div.today{
+	text-align:center;
+
+}
+div.I img{
+float: left;
+margin-left: 100px;
+	}
+	div.three{
+		display:grid;
+	padding-left:80px;
+	
+	}
+	div.two{
+		display: flex;
+		grid-column-gap: 40px;
+	}
+	div.two div.three{
+		grid-column-start: 1;
+		grid-column-end: 2;
+
+	}
+	div.daily{
+		font-family:sans-serif;
+		text-align: center;
+	}
+	div.image img{
+		width:200px;
+		height:200px;
+		
+		margin-left: 200px;
+	}
+	div.choose{
+		display: grid;
+		grid-template-columns: auto auto;
+		float:right;
+		margin-right: 200px;
+	}
+	div.choose{
+		grid-column-gap: 50px;
+		
+	}
+
+	
+
+
